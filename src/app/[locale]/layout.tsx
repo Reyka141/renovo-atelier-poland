@@ -112,7 +112,7 @@ function getJsonLd(locale: string) {
                 ? 'Profesjonalny zakład krawiecki w Polsce. Naprawa odzieży, szycie na miarę, przeróbki i haft.'
                 : locale === 'ru'
                   ? 'Профессиональное швейное ателье в Польше. Ремонт одежды, индивидуальный пошив, перешив и вышивка.'
-                  : locale === 'uk'
+                  : locale === 'ua'
                     ? 'Професійне швейне ательє в Польщі. Ремонт одягу, індивідуальне пошиття, перешиття та вишивка.'
                     : 'Professional tailoring atelier in Poland. Clothing repair, custom tailoring, alterations and embroidery.',
         url: `${SITE_URL}/${locale}`,

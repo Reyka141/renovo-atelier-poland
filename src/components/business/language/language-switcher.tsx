@@ -15,7 +15,7 @@ const languageOptions: LanguageOption[] = [
     { code: 'en', name: 'English', flag: 'En' },
     { code: 'ru', name: 'Русский', flag: 'Ru' },
     { code: 'pl', name: 'Polski', flag: 'Pl' },
-    { code: 'uk', name: 'Українська', flag: 'Uk' },
+    { code: 'ua', name: 'Українська', flag: 'Ua' },
 ];
 
 export function LanguageSwitcher({

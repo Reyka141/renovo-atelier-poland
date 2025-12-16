@@ -74,7 +74,7 @@ export const ProductCard: FC<ProductCardProps> = (props) => {
             <p className="">{t(title)}</p>
             <Button size="sm" onClick={handleToggleBasket} variant={isInBasket ? 'secondary' : 'primary'}>
                 <span className="flex w-full items-center justify-between">
-                    {isInBasket ? 'Добавлено' : t('fromPrice', { price })}
+                    {isInBasket ? t('addedToBasket') : t('fromPrice', { price })}
                     <ArrowRightIcon className="h-6 w-6" />
                 </span>
             </Button>
